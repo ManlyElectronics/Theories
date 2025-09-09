@@ -1,0 +1,31 @@
+\begin{table}[h!]
+\centering
+\begin{tabular}{|p{3cm}|p{6cm}|p{6cm}|}
+\hline
+\textbf{Case} & \textbf{Conventional Method} & \textbf{FRA Representation} \\
+\hline
+Price revaluation & Mark-to-market per SKU, recompute totals & 
+$E = R + Vi$ \newline
+$E' = E e^{i\theta}$ \\
+\hline
+Leverage cycle / de-risking & Track gross and net exposures, simulate scenarios & 
+Pure finance: $(0+V_1 i)(0+V_2 i) = -V_1 V_2$ \newline
+De-risking: $E' = \alpha E e^{-i\varphi}$ \\
+\hline
+Double-entry integrity & Reconciliations, eliminations & 
+Identity: $\sum E = 0$ at each event/period \\
+\hline
+Hedging \& diversification & Covariance matrix of returns & 
+Inner product: $\langle E_a, E_b \rangle = R_a R_b + V_a V_b$ \newline
+If $=0 \Rightarrow$ full diversification \\
+\hline
+Inflation \& currency shocks & CPI deflation, FX translation & 
+System shift: $E' = \alpha E e^{i\theta}$ \\
+\hline
+Supply shock \& substitution & Input–output tables, linear models & 
+$E' = (M R) + Vi$ \newline
+$E'' = E' e^{i\theta}$ \\
+\hline
+\end{tabular}
+\caption{Practical applications: Conventional vs FRA representation}
+\end{table}
