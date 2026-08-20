@@ -22,7 +22,7 @@ Core operations:
 
 ## How to cite
 > Dimitri Rytsk, *Finance–Reality Algebra (FRA): An Algebraic Framework for Real and Financial Duality*, 2025. 
-> https://manlyelectronics.com.au/ (author site) or this repository URL.
+ https://github.com/ManlyElectronics/Theories/tree/master/Finance-Reality-Algebra
 
 ## Notes
 - Prior uses of complex numbers in finance (Osborne & Turner, 1993; Osborne, 2000) are computational, not structural. FRA assigns economic meaning to axes (real vs financial).
