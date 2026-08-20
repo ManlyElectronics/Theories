@@ -28,4 +28,4 @@ Core operations:
 - Prior uses of complex numbers in finance (Osborne & Turner, 1993; Osborne, 2000) are computational, not structural. FRA assigns economic meaning to axes (real vs financial).
 
 ## Contact
-Author: Dimitri Rytsk · Sydney, Australia · dimitri@manlyelectronics.com.au
+Author: Dimitri Rytsk · Sydney, Australia · dimitri@manlyelectronics.com
